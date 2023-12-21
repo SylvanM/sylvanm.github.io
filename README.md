@@ -6,3 +6,12 @@ I went to high school, and then Cornell
 
 ## Cryptography
 And here are some fun things about lattices!
+
+## Rock Climbing
+And here is where you can see cool rock climbing stuff
+
+## Projects
+And here is where I'll put stuff about my projects that I've been doing
+
+## Audio Book Narration
+I'm an asipring voice actor, didn't ya know?

@@ -4,7 +4,7 @@ exploring my interests in these fields, I've always taken a liking to cryptograp
 post-quantum lattice-based cryptographic schemes. Outside of schoolwork, I am a rock climbing and caving instructor
 for Cornell Outdoor Education, and a backpacking trip guide for incoming freshmen students to Cornell.
 
-Email: [sylvan.martin@gmail.com]
+Email: [sylvan.martin@gmail.com](sylvan.martin@gmail.com)
 
 I've always found that the best way I learn things is when I force myself to explain them to others, which 
 is what is going on in the [cryptography](cryptography/crypto.md) section. They are just explainers to myself, 

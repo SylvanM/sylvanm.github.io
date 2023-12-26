@@ -13,12 +13,12 @@ but if anyone else finds them helpful, awesome!
 ## Projects
 Here are some of the things I've worked on either in the past, or am working on currently! Click on the name of any project to be taken to it.
 
- - Clue: An AI I wrote to play the board game of Clue, which is interesting because it's not a total-knowledge board game. (As in, players do not know all information about the state of the game.)
- - NeuralKit: A machine learning library for Swift
- - MatrixKit: A fast linear algebra library for Swift
- - rusty_crypto: A post-quantum cryptographic suite written in Rust
- - OCaml ECC: Elliptic-Curve Diffie-Helman in OCaml
- - BigNumber: A performance based big-integer library for Swift
+ - [Clue](https://github.com/SylvanM/Clue): An AI I wrote to play the board game of Clue, which is interesting because it's not a total-knowledge board game. (As in, players do not know all information about the state of the game.)
+ - [NeuralKit](https://github.com/SylvanM/NeuralKit): A machine learning library for Swift
+ - [MatrixKit](https://github.com/SylvanM/MatrixKit): A fast linear algebra library for Swift
+ - [rusty_crypto](https://github.com/SylvanM/rusty_crypto): A post-quantum cryptographic suite written in Rust
+ - [Ocaml ECC](https://github.com/SylvanM/cs3110-sectool): Elliptic-Curve Diffie-Helman in OCaml
+ - [BigNumber](https://github.com/SylvanM/BigNumber): A performance based big-integer library for Swift
 
 There are many more but these are just some of my favorites.
 

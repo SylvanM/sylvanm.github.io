@@ -11,15 +11,16 @@ is what is going on in the [cryptography](cryptography/crypto.md) section. They 
 but if anyone else finds them helpful, awesome!
 
 ## Projects
-Here is where I'll describe recent projects I've been working on, such as 
+Here are some of the things I've worked on either in the past, or am working on currently! Click on the name of any project to be taken to it.
 
- - NeuralKit
- - MatrixKit
- - rusty_crypto
- - OCaml ECC
- - BigNumber
+ - Clue: An AI I wrote to play the board game of Clue, which is interesting because it's not a total-knowledge board game. (As in, players do not know all information about the state of the game.)
+ - NeuralKit: A machine learning library for Swift
+ - MatrixKit: A fast linear algebra library for Swift
+ - rusty_crypto: A post-quantum cryptographic suite written in Rust
+ - OCaml ECC: Elliptic-Curve Diffie-Helman in OCaml
+ - BigNumber: A performance based big-integer library for Swift
 
-and others! These are all on my github portfolio.
+There are many more but these are just some of my favorites.
 
 ## Cryptography
 

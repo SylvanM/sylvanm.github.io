@@ -34,7 +34,8 @@ So, I'm writing tutorials for others and mainly for myself!
 
 *This is a work in progress and tutorials are coming soon, but these are the tutorials I intend to make soon!*
 
-- Calling Rust Code from C and Swift
+- Calling (Asynchronous!) Rust Code from C and Swift
+	- This one is [hard](https://www.reddit.com/r/rust/comments/w2tlzv/comment/igs8797/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - Implementing Big Number Division
 
 ## Cryptography

@@ -11,7 +11,7 @@ is what is going on in the [cryptography](cryptography/crypto.md) section. They 
 but if anyone else finds them helpful, awesome!
 
 ## Projects
-Here are some of the things I've worked on either in the past, or am working on currently! Click on the name of any project to be taken to the GitHub site. If you want a breif discussion of the project rather than just reading the whole GitHub, go to the 
+Here are some of the things I've worked on either in the past, or am working on currently! Click on the name of any project to be taken to the GitHub site. If you want a brief discussion of the project rather than just reading the whole GitHub, go to the 
 [projects page!](projects/projects.md)
 
  - [NeuralKit](https://github.com/SylvanM/NeuralKit): A machine learning library for Swift

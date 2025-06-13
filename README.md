@@ -1,14 +1,19 @@
 # Overview
-I am an undergraduate studying Mathematics and Computer Science at Cornell University. Though I am still
-exploring my interests in these fields, I've always taken a liking to cryptography and machine learning, and right now I've been studying
-post-quantum lattice-based cryptographic schemes. Outside of schoolwork, I am a rock climbing and caving instructor
-for Cornell Outdoor Education, and a backpacking trip guide for incoming freshmen students to Cornell.
+I am an M.S. student at Cornell University studying Computer Science, specifically algorithms
+and CS theory. I completed my undergrad at Cornell in Math and CS. I am interested in networks,
+graph algorithms, randomized algorithms, and cryptography (and other stuff too!).
+
+Outside of schoolwork, I am a [rock climbing](climbing/CLIMBING.md), [caving](caving/caving.md), and 
+[tree climbing](trees/trees.md) instructor for Cornell Outdoor Education! I also guided [Outdoor Odyssey](https://scl.cornell.edu/coe/odyssey)
+trips for incoming freshmen.
 
 Email: `sylvan.martin@gmail.com`
 
-I've always found that the best way I learn things is when I force myself to explain them to others, which 
-is what is going on in the [cryptography](cryptography/crypto.md) section. They are just explainers to myself, 
-but if anyone else finds them helpful, awesome!
+Sometimes I find out a good way of explaining a concept to myself, or I figure out how to do something I couldn't
+find a good tutorial online for and I'm worried I'll forget how to do it later, so I write up a small explainer
+for myself. But, it occurred to me that these might also be helpful to other people, so I figured I'd put them 
+on here, which is what's happening in the [tutorials/writeups](#tutorials-and-writeups) section. If anyone finds
+these useful, that's amazing!
 
 ## Projects
 Here are some of the things I've worked on either in the past, or am working on currently! Click on the name of any project to be taken to the GitHub site. If you want a brief discussion of the project rather than just reading the whole GitHub, go to the 

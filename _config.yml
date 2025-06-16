@@ -7,5 +7,4 @@ plugins:
 logo: profile_pic.jpg
 platforms:
   - name: GitHub
-    icon: <i class="fa-brands fa-github"></i>
     link: https://github.com/vaibhavvikas

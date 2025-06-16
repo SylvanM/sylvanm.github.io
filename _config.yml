@@ -1,7 +1,11 @@
 theme: jekyll-theme-minimal
 title: Sylvan Martin
-description: CS M.S. Student at Cornell University, B.A. in Math and CS
+description: Computer Science M.S. Student at Cornell University, B.A. Math, B.A. CS cum laude
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 logo: profile_pic.jpg
+platforms:
+  - name: GitHub
+    icon: <i class="fa-brands fa-github"></i>
+    link: https://github.com/vaibhavvikas

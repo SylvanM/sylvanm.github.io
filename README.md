@@ -1,7 +1,8 @@
 # Overview
-I am an M.S. student at Cornell University studying Computer Science, specifically algorithms
+I am an [M.S. student](https://www.cs.cornell.edu/ms) at Cornell University studying Computer Science, specifically algorithms
 and CS theory. I completed my undergrad at Cornell in Math and CS. I am interested in networks,
-graph algorithms, randomized algorithms, and cryptography (and other stuff too!).
+graph algorithms, randomized algorithms, and cryptography (and other stuff too!). Here is a 
+[link to my resume.](files/Sylvan%20Martin%20Resume.pdf)
 
 Outside of schoolwork, I am a [rock climbing](climbing/CLIMBING.md), [caving](caving/caving.md), and 
 [tree climbing](trees/trees.md) instructor for Cornell Outdoor Education! I also guided [Outdoor Odyssey](https://scl.cornell.edu/coe/odyssey)

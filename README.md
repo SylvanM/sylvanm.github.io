@@ -5,7 +5,7 @@ graph algorithms, randomized algorithms, and cryptography (and other stuff too!)
 [link to my resume.](files/Sylvan%20Martin%20Resume.pdf)
 
 Outside of schoolwork, I am a [rock climbing](climbing/CLIMBING.md), caving, and 
-[tree climbing](trees/trees.md) instructor for Cornell Outdoor Education! I also guided [Outdoor Odyssey](https://scl.cornell.edu/coe/odyssey)
+[tree climbing](climbing/CLIMBING.md/#tree-climbing) instructor for Cornell Outdoor Education! I also guided [Outdoor Odyssey](https://scl.cornell.edu/coe/odyssey)
 trips for incoming freshmen.
 
 Email: `sylvan.martin@gmail.com`
@@ -55,4 +55,4 @@ See the [cryptography page](cryptography/crypto.md) for an explanation of the Le
 - Implementing Big Number Division
 
 ## [Rock Climbing](climbing/CLIMBING.md)
-And [here](climbing/CLIMBING.md) is where you can see cool rock climbing stuff
+And [here](climbing/CLIMBING.md) is where you can see cool rock climbing stuff!

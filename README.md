@@ -4,7 +4,7 @@ and CS theory. I completed my undergrad at Cornell in Math and CS. I am interest
 graph algorithms, randomized algorithms, and cryptography (and other stuff too!). Here is a 
 [link to my resume.](files/Sylvan%20Martin%20Resume.pdf)
 
-Outside of schoolwork, I am a [rock climbing](climbing/CLIMBING.md), [caving](caving/caving.md), and 
+Outside of schoolwork, I am a [rock climbing](climbing/CLIMBING.md), caving, and 
 [tree climbing](trees/trees.md) instructor for Cornell Outdoor Education! I also guided [Outdoor Odyssey](https://scl.cornell.edu/coe/odyssey)
 trips for incoming freshmen.
 

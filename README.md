@@ -1,6 +1,8 @@
 # Overview
 I am an [M.S. student](https://www.cs.cornell.edu/ms) at Cornell University studying Computer Science, specifically algorithms
-and CS theory. I completed my undergrad at Cornell in Math and CS. I am interested in networks,
+and CS theory. I work with Professor Bobby Kleinberg on randomized algorithms for oblivious routing.
+
+I completed my undergrad at Cornell in Math and CS. I am interested in networks,
 graph algorithms, randomized algorithms, and cryptography (and other stuff too!). Here is a 
 [link to my resume.](files/Sylvan%20Martin%20Resume.pdf)
 
@@ -10,11 +12,11 @@ trips for incoming freshmen.
 
 Email: `sylvan.martin@gmail.com`
 
-**Table of Contents?**
+**Contents**
 1. [Overview](#overview)
-2. [Project](#projects)
-3. [Writeups](#tutorials-and-writeups)
-4. [Climbing](climbing/CLIMBING.md)
+2. [Projects](#projects)
+4. [Writeups](#tutorials-and-writeups)
+5. [Climbing](climbing/CLIMBING.md)
 
 # Projects
 Here are some of the things I've worked on either in the past, or am working on currently! Click on the name of any project to be taken to the GitHub site.
@@ -27,7 +29,6 @@ created a machine learning library written in pure Rust, containing tools to do 
 convolutional neural networks, and the training thereof) and singular value decomposition along with its 
 applications (PCA, image compression, regression/planes of best fit). [Here is our writeup](https://github.com/SylvanM/ml_kit/blob/main/writeups/final/final_report.pdf) that we submitted
 for the class.
-
 
 
 ## [Hemlock](https://github.com/SylvanM/hemlock_lib)
@@ -87,6 +88,9 @@ So, I'm writing tutorials and explainers for others and mainly for myself! If yo
 	- This one is [hard](https://www.reddit.com/r/rust/comments/w2tlzv/comment/igs8797/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) because of how C and Swift manage their memory differently, and what variables you can 
 	and can't pass into closures. I found a way to get it working for very simple cases (which I call a ["callback table"](https://github.com/SylvanM/Hemlock/blob/main/Hemlock/Utility/HL%20Core%20API/HLCore.swift)) but it won't work when multiple asynchronous calls are being 
 	made at once. I'm still working on this, and when I figure it out I'll write something about it here!
+- Implementing Big Number division
+	- You might think this ought to be straightforward, but I found a lot of caveats that come up when actually trying to implement,
+	say, Knuth's algorithm from TAoCP.
 
 # [Rock Climbing](climbing/CLIMBING.md)
 And [here](climbing/CLIMBING.md) is where you can see cool rock climbing stuff!

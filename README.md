@@ -10,17 +10,54 @@ trips for incoming freshmen.
 
 Email: `sylvan.martin@gmail.com`
 
-Sometimes I find out a good way of explaining a concept to myself, or I figure out how to do something I couldn't
-find a good tutorial online for and I'm worried I'll forget how to do it later, so I write up a small explainer
-for myself. But, it occurred to me that these might also be helpful to other people, so I figured I'd put them 
-on here, which is what's happening in the [tutorials/writeups](#tutorials-and-writeups) section. If anyone finds
-these useful, that's amazing!
+**Table of Contents?**
+1. [Overview](#overview)
+2. [Project](#projects)
+3. [Writeups](#tutorials-and-writeups)
+4. [Climbing](climbing/CLIMBING.md)
 
-## Projects
-Here are some of the things I've worked on either in the past, or am working on currently! Click on the name of any project to be taken to the GitHub site. If you want a brief discussion of the project rather than just reading the whole GitHub, go to the 
-[projects page!](projects/projects.md)
+# Projects
+Here are some of the things I've worked on either in the past, or am working on currently! Click on the name of any project to be taken to the GitHub site.
 
- - [ml_kit](https://github.com/SylvanM/ml_kit): A work-in-progress machine learning library for Rust, in collaboration with Owen Wetherbee and Ethan Ma
+## [ml_kit](https://github.com/SylvanM/ml_kit)
+
+There is a dearth of machine learning libraries for Rust, since it's such a new language. But, I think that's a missed 
+opportunity! Rust is great! So, for my CS practicum course at Cornell, my group (me, Owen Wetherbee, and Ethan Ma)
+created a machine learning library written in pure Rust, containing tools to do deep learning (neural networks, 
+convolutional neural networks, and the training thereof) and singular value decomposition along with its 
+applications (PCA, image compression, regression/planes of best fit). [Here is our writeup](https://github.com/SylvanM/ml_kit/blob/main/writeups/final/final_report.pdf) that we submitted
+for the class.
+
+
+
+## [Hemlock](https://github.com/SylvanM/hemlock_lib)
+
+This is a Rust application that uses Shamir Secret Sharing to securely and redundantly do cloud storage when there is 
+a lack of trust among parties. The intended audience would be a company or large organization with sensitive information
+that doesn't need to be regularly accessed (think a hospital's patient data, or the addresses of clients). If there 
+is a single password or key that can access this information, that makes for a single point of failure. This splits 
+that responsibility among multiple individuals, so that in order to access the data, some fraction of those individuals
+must agree. The Hemlock app is my implementation of this, and makes calls to a cloud database to store the secrets, users,
+and keys. The linked project is just a rust library, but I also began working on a GUI, found [here](https://github.com/SylvanM/Hemlock). 
+
+### MatrixKit and NeuralKit (Swift)
+
+`MatrixKit` and `NeuralKit` are two libraries I developed in tandem with the goal of creating a simple machine learning
+library for Swift. Apple has plenty of (more functional) machine learning libraries you can use right from Xcode,
+but in my opinion they were not beginner friendly and did not have very intuitive ways to actually craft and train
+your own neural network. So, I created my own! Also, I figured that writing a machine learning library from scratch would 
+teach me a *lot* more about machine learning than just using other libraries or reading about it. So, `NeuralKit`
+does not use *any* external libraries other than `MatrixKit`, which I also wrote. 
+
+`MatrixKit` is an abstract linear algebra library. By abstract, I mean that you've got this cool `Matrix` type which
+has elements that can be entries in any arbitrary ring! If entries are in a field, this is detected and 
+you can compute matrix inverses and the like.
+
+There was an interesting problem I had about computing row-echelon form. When the matrix only has entries in a 
+ring and we can't do division, we ought to be able to do REF! The issue I run into is that without being able to divide
+to "re-normalize" things, entries often grow out of control and the matrix blows up.
+
+ - [ml_kit](https://github.com/SylvanM/ml_kit): A machine learning library for Rust, in collaboration with Owen Wetherbee and Ethan Ma
  - [rusty_crypto](https://github.com/SylvanM/rusty_crypto): A post-quantum cryptographic suite written in Rust
  - [algebra_kit](https://github.com/SylvanM/algebra_kit): An abstract algebra library for Rust
  - [matrix_kit](https://github.com/SylvanM/matrix_kit): An abstract *linear* algebra library for Rust (sensing a pattern here?)
@@ -29,30 +66,27 @@ Here are some of the things I've worked on either in the past, or am working on 
 
 There are many more but these are just some of my favorites.
 
-## Tutorials and Writeups
+# Tutorials and Writeups
 
 As I'm working on new projects, there are certain problems I run into that I realize I will need to re-solve in later projects,
 or that other people will run into as well. For a lot of these problems, there exists a good online tutorial already written. But,
-for some niche topics, I could not find a (in my opinion) well-written tutorial online that actually answered the questions I had.
-So, I'm writing tutorials and explainers for others and mainly for myself!
-
-*This is a work in progress and tutorials are coming soon, but these are the tutorials I intend to make soon!*
+for some topics, I could not find a (in my opinion) well-written tutorial online that actually answered the questions I had.
+So, I'm writing tutorials and explainers for others and mainly for myself! If you see a typo feel free to let me know.
 
 ### Machine Learning
 
-My group for the [ml_kit](https://github.com/SylvanM/ml_kit) project had a meeting where we worked out the math for 
-backpropagation together. The notes of which can be found [here](https://github.com/SylvanM/ml_kit/blob/writeup/writeups/tex/notes.pdf)
-under March 5th.
+- [An explanation of Backpropogation](ml/notes.pdf) that I wrote up after a group meeting (for the [ml_kit](https://github.com/SylvanM/ml_kit) project) where we worked out the math behind backpropogation, because we couldn't really find a good, complete explanation elsewhere. 
 
 ### Cryptography
 
-See the [cryptography page](cryptography/crypto.md) for an explanation of the Learning With Errors cryptosystem.
+- [Learning With Errors](cryptography/lwe.pdf)
 
-### Miscellaneous
+### Writeups I want to make
 
 - Calling (Asynchronous!) Rust Code from C and Swift
-	- This one is [hard](https://www.reddit.com/r/rust/comments/w2tlzv/comment/igs8797/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button), and I'm still working on a tutorial. 
-- Implementing Big Number Division
+	- This one is [hard](https://www.reddit.com/r/rust/comments/w2tlzv/comment/igs8797/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) because of how C and Swift manage their memory differently, and what variables you can 
+	and can't pass into closures. I found a way to get it working for very simple cases (which I call a ["callback table"](https://github.com/SylvanM/Hemlock/blob/main/Hemlock/Utility/HL%20Core%20API/HLCore.swift)) but it won't work when multiple asynchronous calls are being 
+	made at once. I'm still working on this, and when I figure it out I'll write something about it here!
 
-## [Rock Climbing](climbing/CLIMBING.md)
+# [Rock Climbing](climbing/CLIMBING.md)
 And [here](climbing/CLIMBING.md) is where you can see cool rock climbing stuff!

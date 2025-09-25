@@ -19,7 +19,8 @@ Email: `sylvan.martin@gmail.com`
 5. [Climbing](climbing/CLIMBING.md)
 
 # Projects
-Here are some of the things I've worked on either in the past, or am working on currently! Click on the name of any project to be taken to the GitHub site.
+I love making fun projects, here are some of the more relevant/recent ones over the years. Below, you'll also 
+find 
 
 ## [ml_kit](https://github.com/SylvanM/ml_kit)
 

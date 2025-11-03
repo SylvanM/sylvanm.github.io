@@ -1,6 +1,5 @@
 # Overview
-I am an [M.S. student](https://www.cs.cornell.edu/ms) at Cornell University studying Computer Science, specifically algorithms
-and CS theory. I work with Professor Bobby Kleinberg on randomized algorithms for oblivious routing.
+I am an [M.S. student](https://www.cs.cornell.edu/ms) at Cornell University where I am advised by [Robert Kleinberg](https://www.cs.cornell.edu/~rdk/). 
 
 I completed my undergrad at Cornell in Math and CS. I am interested in networks,
 graph algorithms, randomized algorithms, and cryptography (and other stuff too!). Here is a 
@@ -14,9 +13,14 @@ Email: `sylvan.martin@gmail.com`
 
 **Contents**
 1. [Overview](#overview)
-2. [Projects](#projects)
+2. [Publications](#publications)
+3. [Projects](#projects)
 4. [Writeups](#tutorials-and-writeups)
 5. [Climbing](climbing/CLIMBING.md)
+
+# Publications
+
+- **Universal Connection Schedules for Reconfigurable Networking.** To appear at *SODA 2026*. Shaleen Baral, Robert Kleinberg, **Sylvan Martin**, Henry Rogers, Tegan Wilson, and Ruogu Zhang.
 
 # Projects
 I love making fun projects, here are some of the more relevant/recent ones over the years. Below, you'll also 

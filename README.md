@@ -3,7 +3,8 @@ I am an [M.S. student](https://www.cs.cornell.edu/ms) at Cornell University wher
 
 I completed my undergrad at Cornell in Math and CS. I am interested in networks,
 graph algorithms, randomized algorithms, and cryptography (and other stuff too!). Here is a 
-[link to my resume.](files/Sylvan%20Martin%20Resume.pdf)
+[link to my resume](files/Sylvan%20Martin%20Resume.pdf), also feel free to check out 
+my [Google Scholar](https://scholar.google.com/citations?hl=en&user=QyyhH-IAAAAJ)!
 
 Outside of schoolwork, I am a [rock climbing](climbing/CLIMBING.md), caving, and 
 [tree climbing](climbing/CLIMBING.md/#tree-climbing) instructor for Cornell Outdoor Education! I also guided [Outdoor Odyssey](https://scl.cornell.edu/coe/odyssey)
@@ -21,6 +22,8 @@ Email: `sylvan.martin@gmail.com`
 # Publications
 
 - **Universal Connection Schedules for Reconfigurable Networking.** To appear at *SODA 2026*. Shaleen Baral, Robert Kleinberg, **Sylvan Martin**, Henry Rogers, Tegan Wilson, and Ruogu Zhang.
+- **Roy. G. Biv: The Color Matching Application for Artists With Limited Pigments.** *IEEE 2021*. Nina M Borodin, **Sylvan Martin**,
+Ryan Sokolowsky
 
 # Projects
 I love making fun projects, here are some of the more relevant/recent ones over the years. Below, you'll also 

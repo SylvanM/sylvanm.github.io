@@ -1,4 +1,4 @@
-# Overview
+# Hello!
 I am an [M.S. student](https://www.cs.cornell.edu/ms) at Cornell University where I am advised by [Robert Kleinberg](https://www.cs.cornell.edu/~rdk/). 
 
 I completed my undergrad at Cornell in Math and CS. I am interested in networks,

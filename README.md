@@ -22,7 +22,7 @@ Email: `sylvan.martin@gmail.com`
 # Publications
 
 - **Universal Connection Schedules for Reconfigurable Networking.** To appear at *SODA 2026*. Shaleen Baral, Robert Kleinberg, **Sylvan Martin**, Henry Rogers, Tegan Wilson, and Ruogu Zhang.
-- **Roy. G. Biv: The Color Matching Application for Artists With Limited Pigments.** *IEEE 2021*. Nina M Borodin, **Sylvan Martin**,
+- **Roy. G. Biv: The Color Matching Application for Artists With Limited Pigments.** *IEEE/ISEC 2021*. Nina M Borodin, **Sylvan Martin**,
 Ryan Sokolowsky
 
 # Projects
